@@ -8,7 +8,7 @@ import { AuthResponseData, AuthService } from '../../auth-services/auth.service'
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
-  styleUrls: ['./signup.component.scss']
+  styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
   isLoading = false;
